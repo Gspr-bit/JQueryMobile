@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandas de rock</title>
+    <link rel="stylesheet" href="dist/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="dist/jquery.js"></script>
+    <script src="dist/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <!-- PÁGINA PRINCIPAL -->
+
+    <div data-role="page" data-theme="b"id="inicio">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <a href="#" class="ui-btn-left ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-home ui-btn-icon-notext">Inicio</a>
+            <h1>Bandas de rock</h1>
+            <a href="#comentarios" data-transition="slide" class="ui-btn-right ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-comment ui-btn-icon-notext">Menu</a>
+        </div>
+        <div data-role="content" data-theme="b">
+            <ul data-role="listview">
+               <li><a href="#the_smiths" data-transition="pop"><img src="assets/img/the_smiths-album.jpg"><h2>The Smiths</h2></a></li>
+               <li><a href="#pink_floyd" data-transition="pop"><img src="assets/img/pink_floyd-album.jpg"><h2>Pink Floyd</h2></a></li>
+               <li><a href="#supertramp" data-transition="pop"><img src="assets/img/supertramp-album.jpg"><h2>Supertramp</h2></a></li>
+               <li><a href="#metallica" data-transition="pop"><img src="assets/img/metallica-album.jpg"><h2>Metallica</h2></a></li>
+               <li><a href="#avenged_sevenfold" data-transition="pop"><img src="assets/img/avenged_sevenfold-album.jpg"><h2>Avenged Sevenfold</h2></a></li>
+            </ul>
+        </div>
+        <div data-role="footer" data-position="fixed"data-theme="b">
+            Derechos reservados
+        </div>
+    </div>
+
+    <!-- BANDAS -->
+    <!-- THE SMITHS -->
+    <div data-role="page" data-theme="b"id="the_smiths">
+        <div data-role="header" data-position="fixed">
+            <a data-rel="back" class="ui-btn-left ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-back ui-btn-icon-notext">Atrás</a>
+            <h1>The Smiths</h1>
+            <a href="#inicio" data-transition="pop" class="ui-btn-right ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-home ui-btn-icon-notext">Inicio</a>
+        </div>
+        <div data-role="content">
+            <table>
+                <tr>
+                    <img src="assets/img/the_smiths.jpg" class="img-banda"  alt="">
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            The Smiths fue un grupo inglés de rock alternativo formado en Mánchester en 1982.7​ Estaba integrado por Steven Patrick Morrissey (vocalista), Johnny Marr (guitarrista), Andy Rourke (bajista) y Mike Joyce (batería). Ha sido denominada por los críticos como la banda más importante de rock alternativo que surgió en la escena británica de música independiente de la década de 1980.
+                        </p>
+                    </td>                    
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        <label for="">The Smiths - I Know It's Over</label>
+                        <audio src="assets/aud/03 The Smiths - I Know It's Over (2011 Remaster).mp3" controls="true"></audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td><iframe width="853" height="480" src="https://www.youtube.com/embed/M6o1SEj02t0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                </tr>
+            </table>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-grid="d">
+                <ul>
+                    <li><a href="#inicio" data-transition="pop" class="ui-btn-active">The Smiths</a></li>
+                    <li><a href="#pink_floyd" data-transition="pop">Pink Floyd</a></li>
+                    <li><a href="#supertramp" data-transition="pop">Supertramp</a></li>
+                    <li><a href="#metallica" data-transition="pop">Metallica</a></li>
+                    <li><a href="#avenged_sevenfold" data-transition="pop">Avenged Sevenfold</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- PINK FLOYD -->
+    <div data-role="page" data-theme="b"id="pink_floyd">
+        <div data-role="header" data-position="fixed">
+            <a data-rel="back" class="ui-btn-left ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-back ui-btn-icon-notext">Atrás</a>
+            <h1>Pink Floyd</h1>
+            <a href="#inicio" data-transition="pop" class="ui-btn-right ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-home ui-btn-icon-notext">Inicio</a>
+        </div>
+        <div data-role="content">
+            <table>
+                <tr>
+                    <img src="assets/img/pink_floyd.jpg" class="img-banda" alt="">
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            Pink Floyd fue una banda de rock británica, fundada en Londres en 1965. Es considerada un icono cultural del siglo xx y una de las bandas más influyentes y aclamadas en la historia de la música, que obtuvo gran popularidad gracias a su música psicodélica que evolucionó hacia el rock progresivo y rock sinfónico con el paso del tiempo. Es conocida por sus canciones de alto contenido filosófico, la experimentación sónica, las innovadoras portadas de sus discos y sus elaborados espectáculos en vivo. Sus ventas sobrepasan los 300 millones de álbumes vendidos en todo el mundo,4​5​ 97,5 millones de ellos solamente en los Estados Unidos.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        <label for="">Pink Floyd - High Hopes</label>
+                        <audio src="assets/aud/11 Pink Floyd - High Hopes (2011 Remaster).mp3" controls="true"></audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td><iframe width="853" height="480" src="https://www.youtube.com/embed/7jMlFXouPk8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                </tr>
+            </table>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-grid="d">
+                <ul>
+                    <li><a href="#the_smiths" data-transition="pop">The Smiths</a></li>
+                    <li><a href="#inicio" data-transition="pop" class="ui-btn-active">Pink Floyd</a></li>
+                    <li><a href="#supertramp" data-transition="pop">Supertramp</a></li>
+                    <li><a href="#metallica" data-transition="pop">Metallica</a></li>
+                    <li><a href="#avenged_sevenfold" data-transition="pop">Avenged Sevenfold</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- SUPERTRAMP -->
+    <div data-role="page" data-theme="b"id="supertramp">
+        <div data-role="header" data-position="fixed">
+            <a data-rel="back" class="ui-btn-left ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-back ui-btn-icon-notext">Atrás</a>
+            <h1>Supertramp</h1>
+            <a href="#inicio" data-transition="pop" class="ui-btn-right ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-home ui-btn-icon-notext">Inicio</a>
+        </div>
+        <div data-role="content">
+            <table>
+                <tr>
+                    <img src="assets/img/supertramp.jpg" class="img-banda" alt="">
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            Supertramp es un grupo británico de rock progresivo fundado en 1969 por el músico Rick Davies.​ Con el apoyo financiero de Stanley August Miesegaes, la primera formación de Supertramp, integrada por Roger Hodgson, Richard Palmer y Robert Millar, publicó un álbum homónimo con las características del rock progresivo de escaso éxito comercial, seguido de un segundo trabajo, Indelibly Stamped, en el que Palmer y Millar fueron sustituidos por Frank Farrell, Kevin Currie y Dave Winthrop.​A pesar del escaso éxito inicial y de que Miesegaes cortó la financiación del grupo, Davies y Hodgson crearon una nueva formación, integrada por Dougie Thomson, John Helliwell y Bob Siebenberg, cuyos trabajos incluyeron un sonido más orientado al pop manteniendo el estilo progresivo con un uso predominante del piano Wurlitzer, del saxofón y de otros sonidos orquestales.​ El primer álbum de esta formación, Crime of the Century, favoreció el auge comercial de Supertramp, consolidado con sencillos como «Dreamer» y «Bloody Well Right».​ Crime of the Century fue seguido de trabajos como Crisis? What Crisis? y Even in the Quietest Moments, que labraron la reputación de Supertramp como una banda de directo.​
+                        </p>
+                    </td>
+                </tr>
+                ´<tr>
+                    <td>
+                        <br>
+                        <label for="Supertramp - Breakfast In America"></label>
+                        <audio src="assets/aud/04 Supertramp - Breakfast In America (Remastered).mp3" controls="true"></audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td><iframe width="853" height="480" src="https://www.youtube.com/embed/tODaH_fGtMY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                </tr>
+            </table>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-grid="d">
+                <ul>
+                    <li><a href="#the_smiths" data-transition="pop">The Smiths</a></li>
+                    <li><a href="#pink_floyd" data-transition="pop">Pink Floyd</a></li>
+                    <li><a href="#inicio" data-transition="pop" class="ui-btn-active">Supertramp</a></li>
+                    <li><a href="#metallica" data-transition="pop">Metallica</a></li>
+                    <li><a href="#avenged_sevenfold" data-transition="pop">Avenged Sevenfold</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- METALLICA -->
+    <div data-role="page" data-theme="b"id="metallica">
+        <div data-role="header" data-position="fixed">
+            <a data-rel="back" class="ui-btn-left ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-back ui-btn-icon-notext">Atrás</a>
+            <h1>Metallica</h1>
+            <a href="#inicio" data-transition="pop" class="ui-btn-right ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-home ui-btn-icon-notext">Inicio</a>
+        </div>
+        <div data-role="content">
+            <table>
+                <tr>
+                    <img src="assets/img/metallica.jpg" class="img-banda"  alt="">
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            Metallica es una banda estadounidense de rock1​ originaria de Los Ángeles, pero con base en San Francisco desde febrero de 1983. Fue fundada en 1981 en Los Ángeles por Lars Ulrich y James Hetfield, a los que se les unirían Dave Mustaine y Ron McGovney. Estos dos músicos fueron después sustituidos por el guitarrista Kirk Hammett y el bajista Cliff Burton respectivamente, Dave Mustaine fue despedido un año después de ingresar en la banda debido a su excesiva adicción al alcohol y su actitud violenta, siendo sustituido por Kirk Hammett (exguitarrista de Exodus). Ron renuncia a la banda debido al mal comportamiento de Dave Mustaine, el cual era violento y problemático cuando estaba bajo el efecto del alcohol. El colmo fue cuando Mustaine mojó el bajo de Ron con cerveza, él sin saberlo lo conectó, recibiendo una descarga eléctrica. Es entonces, tras contactar con Cliff Burton que la banda se traslada a San Francisco. (Cabe resaltar que Ron sabía que lo iban a despedir y sustituir por Cliff Burton). Por otra parte, el 27 de septiembre de 1986, fue la muerte de Cliff Burton en un accidente de autobús en Suecia, durante una de sus giras, esto provocó la entrada al grupo de Jason Newsted,2​ quien, tras su abandono quince años más tarde, sería sustituido por el bajista actual, Robert Trujillo.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        <label for="">Metallica - One</label>
+                        <audio src="assets/aud/Metallica - One (Official Music Video).mp3" controls="true"></audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td><iframe width="640" height="480" src="https://www.youtube.com/embed/WM8bTdBs-cw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                </tr>
+            </table>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-grid="d">
+                <ul>
+                    <li><a href="#the_smiths" data-transition="pop">The Smiths</a></li>
+                    <li><a href="#pink_floyd" data-transition="pop">Pink Floyd</a></li>
+                    <li><a href="#supertramp" data-transition="pop">Supertramp</a></li>
+                    <li><a href="#inicio" data-transition="pop" class="ui-btn-active">Metallica</a></li>
+                    <li><a href="#avenged_sevenfold" data-transition="pop">Avenged Sevenfold</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- AVENGED SEVENFOLD -->
+    <div data-role="page" data-theme="b"id="avenged_sevenfold">
+        <div data-role="header" data-position="fixed">
+            <a data-rel="back" class="ui-btn-left ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-back ui-btn-icon-notext">Atrás</a>
+            <h1>Avenged Sevenfold</h1>
+            <a href="#inicio" data-transition="pop" class="ui-btn-right ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-home ui-btn-icon-notext">Inicio</a>
+        </div>
+        <div data-role="content">
+            <table>
+                <tr>
+                    <img src="assets/img/avenged_sevenfold.jpg" class="img-banda" alt="">
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            Avenged Sevenfold (frecuentemente abreviado como A7X) es una banda estadounidense de heavy metal1​ originaria de Huntington Beach, California, fundada en 1999. Avenged Sevenfold comenzó como una banda de género metalcore con su álbum debut Sounding the Seventh Trumpet de 2001 y más tarde con su segundo álbum Waking The Fallen de 2003, en el que The Rev y M. Shadows utilizaron el estilo vocal screaming en muchas canciones de este álbum. La banda es principalmente conocida por la versatilidad de sus estilos musicales, sus dramáticas portadas en cada uno de sus álbumes2​3​4​ y su logotipo: Deathbat.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        <label for="">Avenged Sevenfold - Critical Acclaim</label>
+                        <audio src="assets/aud/01 Avenged Sevenfold - Critical Acclaim.mp3" controls="true"></audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/UM9vgmOR9GU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-grid="d">
+                <ul>
+                    <li><a href="#the_smiths" data-transition="pop">The Smiths</a></li>
+                    <li><a href="#pink_floyd" data-transition="pop">Pink Floyd</a></li>
+                    <li><a href="#supertramp" data-transition="pop">Supertramp</a></li>
+                    <li><a href="#metallica" data-transition="pop">Metallica</a></li>
+                    <li><a href="#inicio" data-transition="pop" class="ui-btn-active">Avenged Sevenfold</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- COMENTARIOS -->
+    <div data-role="page" data-theme="b"id="comentarios">
+        <div data-role="header" data-position="fixed">
+            <a data-transition="slide" data-rel="back" class="ui-btn-left ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-back ui-btn-icon-notext">Inicio</a>
+            <h1>Comentarios</h1>
+            <a href="#inicio" data-transition="pop" class="ui-btn-right ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-home ui-btn-icon-notext">Inicio</a>
+        </div>
+        <div data-role="content">
+            <form action="">
+                <label for="calificacion">Califica esta página</label>
+                <input type="range" name="calificación" id="calificacion" value="5" min="0" max="10" data-highlight="true"> 
+                <label for="slider1">Enviar comentarios</label>
+                <select name="slider1" id="slider1" data-role="slider">
+                    <option value="off">No</option>
+                    <option value="on">Sí</option>
+                </select>
+                <fieldset data-role="controlgroup">
+                    <legend>Elige las bandas que te gustan</legend>
+                    <input type="checkbox" name="checkbox-1a" id="checkbox-1a" checked="">
+                    <label for="checkbox-1a">The Smiths</label>
+                    <input type="checkbox" name="checkbox-2a" id="checkbox-2a">
+                    <label for="checkbox-2a">Pink Floyd</label>
+                    <input type="checkbox" name="checkbox-3a" id="checkbox-3a">
+                    <label for="checkbox-3a">Supretramp</label>
+                    <input type="checkbox" name="checkbox-4a" id="checkbox-4a">
+                    <label for="checkbox-4a">Metallica</label>
+                    <input type="checkbox" name="checkbox-5a" id="checkbox-5a">
+                    <label for="checkbox-5a">Avenged Sevenfold</label>
+                </fieldset>
+                <label for="text-basic">¿Qué otra banda se debió agregar?</label>
+                <input type="text" name="text-basic" id="text-basic" value="">
+                <button class="ui-btn">Enviar</button>
+            </form>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-grid="d">
+                <ul>
+                    <li><a href="#inicio" data-transition="pop" class="ui-btn-active">Inicio</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
